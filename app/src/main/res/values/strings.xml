@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">User App</string>
+
+    <string name="bold" tools:ignore="ReferenceType">@font/boldcandara</string>
+    <string name="light" tools:ignore="ReferenceType">@font/lightcandara</string>
+    <string name="regular" tools:ignore="ReferenceType">@font/regularcandara</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start">Start </string>
+    <string name="close">Close</string>
+    <string name="about_college">College of Computer Science , Undergraduate IT Program is affiliated to Purbanchal University (PU) since 1998 AD under the umbrella of Purbanchal Education Foundation (PEF). Since its establishment, the college has been offering CS Degree with affordability and deliverance of high quality education which are  its benchmarks. The  enriched physical infrastructure, affordable fee structure, highly qualified , experienced, dedicated and professional teaching and non teaching faculties, strong administrative staff, well equipped computer laboratories, well stocked library with a lot of textbooks, reference books and advanced access of internet facilities. Continuous assessment of progress and performance , regular unit tests, regular home-assignments, project works and terminal examinations are rigidly followed.</string>
+</resources>

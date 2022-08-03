@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/grey2"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:layout_margin="4dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/avatarprofile"/>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Message from the Principal."
+
+                    android:textSize="18dp"
+                    android:textColor="@color/textcolor"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Date: "
+                        android:fontFamily="@string/light"
+                        android:textSize="@dimen/text_size01"
+                        android:textColor="@color/textcolor"/>
+
+                    <TextView
+                        android:id="@+id/date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="15/20/2022 "
+                        android:fontFamily="@string/light"
+                        android:textSize="@dimen/text_size01"
+                        android:textColor="@color/textcolor"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Time: "
+                        android:fontFamily="@string/light"
+                        android:textSize="@dimen/text_size01"
+                        android:textColor="@color/textcolor"
+                        android:paddingLeft="30dp"/>
+
+                    <TextView
+                        android:id="@+id/time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="10:00 PM "
+                        android:fontFamily="@string/light"
+                        android:textSize="@dimen/text_size01"
+                        android:textColor="@color/textcolor"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+            <TextView
+                android:id="@+id/NoticeTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Text Text TextTextTextTextTextTextTextTextTextTextTextTextTextTextText"
+                android:textSize="17sp"
+                android:layout_marginVertical="@dimen/text_margin"
+                android:textColor="@color/textcolor"/>
+
+            <ImageView
+                android:id="@+id/NoticeImage"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:scaleType="fitXY"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginVertical="8dp"
+            android:background="#c1c1c1"/>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
